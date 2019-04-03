@@ -1,6 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: 'airbnb',
+  plugins: [
+    'flowtype'
+  ],
+  extends: [
+    'airbnb',
+    'plugin:flowtype/recommended'
+  ],
   globals: {
     __DEV__: true
   },
@@ -25,5 +31,10 @@ module.exports = {
     'camelcase': 'off',
     'global-require': 'off',
     'no-shadow': 'off'
+  },
+  settings: {
+    flowtype: {
+      onlyFilesWithFlowAnnotation: true
+    }
   }
 };

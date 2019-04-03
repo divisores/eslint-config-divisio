@@ -1,15 +1,16 @@
 {
   "name": "eslint-config-divisio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration used inside Disivios projects",
   "main": "index.js",
   "peerDependencies": {
     "eslint": "^5.4.0"
   },
   "dependencies": {
-    "eslint": "^5.13.0",
     "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4"
