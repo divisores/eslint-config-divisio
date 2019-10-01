@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-divisio",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ESLint configuration used inside Disivios projects",
   "main": "index.js",
   "peerDependencies": {

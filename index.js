@@ -21,7 +21,7 @@ module.exports = {
     'space-before-function-paren': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'import/prefer-default-export': 'off,',
+    'import/prefer-default-export': 'off',
     'react/default-props-match-prop-types': 'off',
     'react/forbid-prop-types': 'off',
     'react/require-default-props': 'off',
