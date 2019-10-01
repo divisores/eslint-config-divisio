@@ -1,7 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
   plugins: [
-    'flowtype'
+    'flowtype',
+    'react-hooks'
   ],
   extends: [
     'airbnb',
@@ -30,7 +31,9 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'literal',
     'camelcase': 'off',
     'global-require': 'off',
-    'no-shadow': 'off'
+    'no-shadow': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn'
   },
   settings: {
     flowtype: {
