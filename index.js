@@ -28,7 +28,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'linebreak-style': 'off',
-    'react/jsx-one-expression-per-line': 'literal',
+    'react/jsx-one-expression-per-line': [1, { 'allow': 'literal'}],
     'camelcase': 'off',
     'global-require': 'off',
     'no-shadow': 'off',
